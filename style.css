@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.realboxContainer{
+    display: inherit;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+
+
+
+.main-header-sec{
+    background-color: rgb(255, 255, 255);
+    
+}
+.logo-img-sec img{
+    width: 200px;
+}
+.navbar-sec li a{
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 20px;
+    color: black;
+
+}
+.navbar-sec li a:hover{
+    color: red;
+}
+.navbar-sec a{
+    padding-left: 20px;
+}
+.main-hero-sec{
+    background-image: url(images/slider-bg.jpg);
+    width: 100%;
+    height: 95vh;
+}
+.main-hero-text h1{
+    color:#f7444e ;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+.main-hero-text a , .main-arrival-text a{
+    text-decoration: none;
+    background-color: #f7444e;
+    padding: 10px 40px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+
+}
+.card-title-sec{
+    font-size: 40px;
+    font-weight: 700;
+}
+.card-sec img{
+    width: 100px;
+    position: absolute;
+    left: 35%;
+}
+.card-text{
+    padding-top: 110px;
+}
+.arrival-sec{
+    background-color:#d4ced0 ;
+    width: 100%;
+}
+.arrivals-sec img{
+    height:450px;
+}
+.main-arrival-text h2{
+    font-size: 45px;
+}
+.main-arrival-text{
+    position: absolute;
+    left: 50%;
+}
+.product-card-wrapp img{
+    width: 150px;
+    margin: 50px 0px 10px 50px;
+    transition: .3s;
+}
+.product-card-wrapp:hover img{
+    transform: scale(1.1);
+    opacity: 0.3;
+
+}
+.button-product-1{
+    background-color: #f7444e;
+    padding: 10px 30px;
+    color: white;
+}
+.button-product-2{
+    background-color: #000000;
+    padding: 10px 30px;
+    color: white;
+}
+.product-card-wrapp {
+    position: relative;
+    width: 50%;
+  }
+.overlay-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .4s ease;
+}
+.just-demo a{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #f7444e;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+.overlay-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .4s ease;
+}
+  
+.product-card-wrapp:hover .overlay-1 {
+    height: 100%;
+  }
+  .product-card-wrapp:hover .overlay-2 {
+    height: 100%;
+  }
+  
+.text-1 {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+.text-2 {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+.product-card{
+    margin: 20px 200px;
+}
+.button-1 a{
+    background-color: #f7444e;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+.button-1 a:hover{
+    background-color:#d2d0d1;
+    color:#f7444e ;
+    border: 1px solid #f7444e;
+}
+.button-2 a{
+    background-color: #f7444e;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+.button-2 a:hover{
+    background-color:#d4ced0;
+    color:#f7444e ;
+    border: 1px solid #f7444e;
+}
+.button-3 a{
+    background-color: #f7444e;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+
+}
+.button-3 a:hover{
+    background-color:white;
+    color:#f7444e ;
+    border: 1px solid #f7444e;
+}
+.button-4 a{
+    background-color: #f7444e;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 90px;
+
+}
+.button-4 a:hover{
+    background-color:#d4ced0;
+    color:#f7444e ;
+    border: 1px solid #f7444e;
+}
+.subscribe-sec{
+    background-color: #d4ced0;
+    width: 100%;
+}
+.input-sec{
+    padding: 18px 300px;
+    border: none;
+}
+.left-right-icon{
+    color: rgb(255, 255, 255);
+    background-color: #fa000c;
+    padding: 12px 15px;
+    border-radius: 50%;
+}
+.main-footer-sec{
+    margin-top: 100px;
+    background-color: #f8f8f8;
+}
+.footer-text-sec{
+    padding: 80px 0px ;
+}
+.footer-text-sec li{
+    list-style: none;
+    line-height: 30px;
+   
+}
+.footer-text-sec li a{
+    text-decoration: none;
+    color: rgb(29, 28, 28) ;
+
+}
+.sub-footer{
+    background-color: #222222;
+    width: 100%;
+
+}
+.sub-footer-text{
+    padding: 20px 0px;
+    line-height: 10px;
+}
